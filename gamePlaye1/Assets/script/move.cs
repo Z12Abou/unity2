@@ -103,9 +103,10 @@ public class move : MonoBehaviour
         }
         
     }
-    public void SupparPaoire()
+    public void SupparPaoire(GameObject playerEffect)
     {
-        
+        Instantiate(playerEffect, this.transform);
+        Debug.Log("ok daze");
         
     }
    

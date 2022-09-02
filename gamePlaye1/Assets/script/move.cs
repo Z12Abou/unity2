@@ -29,7 +29,7 @@ public class move : MonoBehaviour
       soundcoin = GameObject.FindGameObjectWithTag("soundcoin").GetComponent<MMFeedbacks>();
         lr = GetComponent<LaneRunner>();
         ani = GetComponent<Animator>();
-        InvokeRepeating("AddspeedPlayer", 4, 2);
+        //InvokeRepeating("AddspeedPlayer", 4, 2);
        
 
     }
@@ -42,6 +42,10 @@ public class move : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(lr.followSpeed <= 20)
+        {
+            lr.followSpeed += 0.01f;
+        }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if(lr.lane>2)
@@ -94,15 +98,15 @@ public class move : MonoBehaviour
     }
    
 
-    public void AddspeedPlayer()
-    {
-        if (lr.followSpeed <= 20)
-        {
-            lr.followSpeed++;
-            Debug.Log("Add spped player ");
-        }
+    //public void AddspeedPlayer()
+    //{
+    //    if (lr.followSpeed <= 20)
+    //    {
+    //        lr.followSpeed++;
+    //        Debug.Log("Add spped player ");
+    //    }
         
-    }
+    //}
     public void SupparPaoire()
     {
         

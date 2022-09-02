@@ -13,14 +13,6 @@ public class PowerUp : MonoBehaviour
             GameObject Effect = Instantiate(EffecteUP, transform.position, transform.rotation);
             Destroy(Effect, 2);
             Destroy(gameObject);
-            //pickUp();
         }
-    }
-    void pickUp()
-    {
-        Debug.Log("Power up !!");
-      GameObject Effect=  Instantiate(EffecteUP, transform.position, transform.rotation);
-        Destroy(Effect, 2);
-        Destroy(gameObject);
     }
 }

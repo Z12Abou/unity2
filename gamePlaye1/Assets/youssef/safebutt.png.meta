@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ce552ec2a393ba4a823750e41d73eea
+guid: f02ddcdd3c171db4b868e401b61f2e61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -140,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: btn_0
+      name: safebutt_0
       rect:
         serializedVersion: 2
-        x: 207
-        y: 2892
-        width: 1031
-        height: 1030
+        x: 0
+        y: 528
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,25 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: e5d02010f15b3d5468cfb1be6f8192dc
-      internalID: -500744367
-=======
-      spriteID: bc1af5c36a79e2346924d429736d73dc
-      internalID: 470213072
->>>>>>> Stashed changes
+      spriteID: 0a7a919407f94414e831666835d3e502
+      internalID: 1695570261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_1
+      name: safebutt_1
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 2890
-        width: 1031
-        height: 1032
+        x: 36
+        y: 312
+        width: 82
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,25 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: e3c80640873832b40bf69b7769ddcc49
-      internalID: 724400232
-=======
-      spriteID: 3cab5c84090a2ac45ac37d03f7e26e94
-      internalID: 1805703849
->>>>>>> Stashed changes
+      spriteID: 6e5e5b15abee4d1408f5c89d46ff6c02
+      internalID: 1438095056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_2
+      name: safebutt_2
       rect:
         serializedVersion: 2
-        x: 2929
-        y: 2890
-        width: 1031
-        height: 1032
+        x: 127
+        y: 318
+        width: 88
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,25 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 819b2555ca3fd6448a9e30f53fac135f
-      internalID: 1637188047
-=======
-      spriteID: 9c4c052724344804e87f89bcef460106
-      internalID: 1348098751
->>>>>>> Stashed changes
+      spriteID: 4a61937286147df44926ca607e18ac1e
+      internalID: -1053503905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_3
+      name: safebutt_3
       rect:
         serializedVersion: 2
-        x: 207
-        y: 1568
-        width: 1031
-        height: 1031
+        x: 219
+        y: 318
+        width: 91
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,25 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: c82e3cf6652b3e642b80e9921c151052
-      internalID: -131675791
-=======
-      spriteID: 241d4fa47f3639440a1e03262141a5d4
-      internalID: -1190066617
->>>>>>> Stashed changes
+      spriteID: d4fa1eb99783e6440830480022a3986d
+      internalID: -483105998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_4
+      name: safebutt_4
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 1568
-        width: 1031
-        height: 1031
+        x: 36
+        y: 219
+        width: 82
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,25 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: cfd48cf68921ea44e936b70c9563a15b
-      internalID: 1225104459
-=======
-      spriteID: bc20c9d9de4d2e0419746580cc2cc95b
-      internalID: -1849959581
->>>>>>> Stashed changes
+      spriteID: dfd8e33991f576e408fa12b1efc700c4
+      internalID: -1997997250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_5
+      name: safebutt_5
       rect:
         serializedVersion: 2
-        x: 2929
-        y: 1568
-        width: 1031
-        height: 1031
+        x: 127
+        y: 224
+        width: 86
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,25 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: b3347f8b93ccb2347afcd46a89b667d8
-      internalID: -619175155
-=======
-      spriteID: dce422ec42b074149b7d793e788ba7fd
-      internalID: 1015017111
->>>>>>> Stashed changes
+      spriteID: 1ae9aa0f25c1a284298e49877b96d5e6
+      internalID: 696903514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_6
+      name: safebutt_6
       rect:
         serializedVersion: 2
-        x: 207
-        y: 245
-        width: 1031
-        height: 1032
+        x: 222
+        y: 224
+        width: 88
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,25 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 175d5d8bce411f74187b48a9c27295fb
-      internalID: -1215544384
-=======
-      spriteID: 664bec9b22a81984f8113f16547a4059
-      internalID: -2062161102
->>>>>>> Stashed changes
+      spriteID: 82d0a314e347f9242be25d12c4c8c91b
+      internalID: 833628880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_7
+      name: safebutt_7
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 245
-        width: 1031
-        height: 1032
+        x: 36
+        y: 126
+        width: 82
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,25 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: 3b81a8ac77e9f224db4c31312736bbc5
-      internalID: -1353852981
-=======
-      spriteID: b326b31fecb1b464eb5b83f4ad1af091
-      internalID: 1638131389
->>>>>>> Stashed changes
+      spriteID: 0e5d0be2c8ec99c4a9f667c943caba1a
+      internalID: 390441498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: btn_8
+      name: safebutt_8
       rect:
         serializedVersion: 2
-        x: 2929
-        y: 245
-        width: 1031
-        height: 1032
+        x: 127
+        y: 130
+        width: 86
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,13 +322,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
-      spriteID: b09956f9c89ed7241844d4dd69b79e7b
-      internalID: -1396569864
-=======
-      spriteID: bf3fc3175a4c0854c9707efff38759a4
-      internalID: -265921079
->>>>>>> Stashed changes
+      spriteID: 9e5b9f6a1c2d7764493747a0e0fde2f5
+      internalID: 1507631582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safebutt_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 130
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c3be002a791f4eb2ecb8a9ed9b641
+      internalID: 310041857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safebutt_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c3ee6e57befff45bd36381ae64156e
+      internalID: 1047705067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safebutt_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 35
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de070f155c968040852bff1f20c6831
+      internalID: -1651776358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: safebutt_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 35
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1e6441e2745b4e8e9b84fd79deb73
+      internalID: -1738969374
       vertices: []
       indices: 
       edges: []
@@ -376,11 +415,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-    spriteID: 5e97eb03825dee720800000000000000
-=======
-    spriteID: 0ef3d609f9fe22c419a29f90e9280957
->>>>>>> Stashed changes
+    spriteID: 85fa60c05612e014a8d7b840aa31c227
     internalID: 0
     vertices: []
     indices: 
@@ -388,27 +423,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-      btn_2: 1637188047
-      btn_0: -500744367
-      btn_4: 1225104459
-      btn_7: -1353852981
-      btn_8: -1396569864
-      btn_3: -131675791
-      btn_6: -1215544384
-      btn_5: -619175155
-      btn_1: 724400232
-=======
-      btn_2: 1348098751
-      btn_0: 470213072
-      btn_4: -1849959581
-      btn_7: 1638131389
-      btn_8: -265921079
-      btn_3: -1190066617
-      btn_6: -2062161102
-      btn_5: 1015017111
-      btn_1: 1805703849
->>>>>>> Stashed changes
+      safebutt_5: 696903514
+      safebutt_11: -1651776358
+      safebutt_6: 833628880
+      safebutt_8: 1507631582
+      safebutt_3: -483105998
+      safebutt_0: 1695570261
+      safebutt_1: 1438095056
+      safebutt_12: -1738969374
+      safebutt_2: -1053503905
+      safebutt_9: 310041857
+      safebutt_10: 1047705067
+      safebutt_4: -1997997250
+      safebutt_7: 390441498
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

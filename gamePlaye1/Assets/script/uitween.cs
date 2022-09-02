@@ -9,8 +9,8 @@ public class uitween : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LeanTween.scale(play, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
-        LeanTween.scale(gameover, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic).setOnComplete(losing);
+        LeanTween.scale(play, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
+        LeanTween.scale(gameover, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic).setOnComplete(losing);
         LeanTween.moveLocal(gameover, new Vector3(10f, 110f, 2f), .4f).setDelay(2f).setEase(LeanTweenType.easeInOutCubic);
         LeanTween.scale(gameover, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
     }

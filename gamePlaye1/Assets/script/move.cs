@@ -105,14 +105,10 @@ public class move : MonoBehaviour
     //        lr.followSpeed++;
     //        Debug.Log("Add spped player ");
     //    }
-        
-<<<<<<< HEAD
-    }
+       // 
+
+
     public void SupparPaoire(GameObject playerEffect)
-=======
-    //}
-    public void SupparPaoire()
->>>>>>> 3e993cf7872cab548d09c020fbae6eac2ef25c99
     {
         Instantiate(playerEffect, this.transform);
         Debug.Log("ok daze");

@@ -4,7 +4,7 @@ using MoreMountains.Feedbacks;
 
 public class move : MonoBehaviour
 {
-
+    public static bool klaSpeed;
     LaneRunner lr;
     Animator ani;
     [SerializeField] GameObject polise1;
@@ -15,13 +15,14 @@ public class move : MonoBehaviour
     [SerializeField] GameObject ui;
     MMFeedbacks soundcoin;
     [SerializeField] LevelGenerator  lvlgen;
-    
 
+    float speedp=4;
     private void Awake()
     {
         lvlgen.startLevel = PlayerPrefs.GetInt("startlvl");
         lvlgen.Restart();
         Time.timeScale = 1;
+        
     }
 
     void Start()
@@ -30,7 +31,7 @@ public class move : MonoBehaviour
         lr = GetComponent<LaneRunner>();
         ani = GetComponent<Animator>();
         //InvokeRepeating("AddspeedPlayer", 4, 2);
-       
+        klaSpeed = false;
 
     }
 
@@ -44,7 +45,11 @@ public class move : MonoBehaviour
     {
         if(lr.followSpeed <= 20)
         {
-            lr.followSpeed += 0.01f;
+            speedp += 0.01f;
+            if (klaSpeed == false)
+            {
+                lr.followSpeed += speedp;
+            }
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {

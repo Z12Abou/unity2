@@ -3,9 +3,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Dreamteck.Forever;
 
-public class codevalider : MonoBehaviour
+public class safecode : MonoBehaviour
 {
-   
+    // Start is called before the first frame update
     public static string codetext;
     [SerializeField] InputField inputField;
     int k = 3;

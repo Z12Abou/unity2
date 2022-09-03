@@ -7,18 +7,17 @@ public class safecode : MonoBehaviour
 {
     // Start is called before the first frame update
     public static string codetext;
-    [SerializeField] InputField inputField;
+    [SerializeField] InputField codesafe;
+    [SerializeField] GameObject pausepanel;
+    string code = "";
     int k = 3;
     int lvl = 0;
-    
-
-
     public void btnValider()
     {
         
         if (k > 0)
         {
-            if (codetext == inputField.text.Trim())
+            if (codetext == codesafe.text.Trim())
             {
                 Debug.Log("win");
                 lvl++;
@@ -36,6 +35,74 @@ public class safecode : MonoBehaviour
             SceneManager.LoadScene(0);
 
         }
+       
 
+    }
+    public void btn0()
+    {
+        code = code + 0;
+        codesafe.text = code;
+    }
+    public void btn1()
+    {
+        code = code + 1;
+        codesafe.text = code;
+    }
+    public void btn2()
+    {
+        code = code + 2;
+        codesafe.text = code;
+
+    }
+    public void btn3()
+    {
+        code = code + 3;
+        codesafe.text = code;
+
+    }
+    public void btn4()
+    {
+        code = code + 4;
+        codesafe.text = code;
+
+    }
+    public void btn5()
+    {
+        code = code + 5;
+        codesafe.text = code;
+
+    }
+    public void btn6()
+    {
+        code = code + 6;
+        codesafe.text = code;
+
+    }
+    public void btn7()
+    {
+        code = code + 7;
+        codesafe.text = code;
+
+    }
+    public void btn8()
+    {
+        code = code + 8;
+        codesafe.text = code;
+
+    }
+    public void btn9()
+    {
+        code = code + 9;
+        codesafe.text = code;
+
+    }
+    public void delete()
+    {
+        codesafe.text = "";
+        code = "";
+    }
+    public void Pause()
+    {
+        pausepanel.SetActive(true);
     }
 }

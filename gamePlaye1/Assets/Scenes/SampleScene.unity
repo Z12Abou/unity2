@@ -2402,7 +2402,7 @@ PrefabInstance:
     - target: {fileID: 7925272042864380031, guid: 8c2c4d7bee0b26540b8e8ddadc8752f9, type: 3}
       propertyPath: particals
       value: 
-      objectReference: {fileID: 198780762164436258, guid: 3c87503deada045dfad4b3f34d340ae0, type: 3}
+      objectReference: {fileID: 1933607824282986, guid: 3c87503deada045dfad4b3f34d340ae0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c2c4d7bee0b26540b8e8ddadc8752f9, type: 3}
 --- !u!1001 &8232098179152416543

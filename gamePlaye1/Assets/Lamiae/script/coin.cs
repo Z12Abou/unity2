@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class coin : MonoBehaviour
 {
-    public static float scoeCoin=0;
+    public static float scoreCoin=0;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("plus coin");
-            scoeCoin++;
+            scoreCoin++;
             Destroy(gameObject);
 
         }

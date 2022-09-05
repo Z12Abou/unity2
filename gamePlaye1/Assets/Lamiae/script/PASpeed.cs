@@ -5,13 +5,13 @@ using Dreamteck.Forever;
 
 public class PASpeed : MonoBehaviour
 {
-    [SerializeField] LaneRunner lr;
+    LaneRunner lr;
     public bool salaSpeed;
     float timer = 3;
     // Start is called before the first frame update
     void Start()
     {
-        
+        lr = GameObject.FindGameObjectWithTag("Player").GetComponent<LaneRunner>();
     }
 
     // Update is called once per frame

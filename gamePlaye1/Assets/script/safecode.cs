@@ -9,6 +9,7 @@ public class safecode : MonoBehaviour
     public static string codetext;
     [SerializeField] InputField codesafe;
     [SerializeField] GameObject pausepanel;
+    [SerializeField] GameObject btnpause;
     string code = "";
     int k = 3;
     int lvl = 0;
@@ -103,6 +104,18 @@ public class safecode : MonoBehaviour
     }
     public void Pause()
     {
+        Time.timeScale = 0;
         pausepanel.SetActive(true);
+        btnpause.SetActive(false);
+    }
+    public void resume()
+    {
+        Time.timeScale = 1;
+        pausepanel.SetActive(false);
+        btnpause.SetActive(true);
+    }
+    public void exit()
+    {
+        
     }
 }

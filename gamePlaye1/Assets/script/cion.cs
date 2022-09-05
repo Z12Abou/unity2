@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class cion : MonoBehaviour
 {
-    // Start is called before the first frame update
    public void affecteCoin(GameObject effct)
     {
-         Instantiate(effct, transform.position,Quaternion.identity);
+        GameObject effcts= Instantiate(effct,this.transform.position,Quaternion.identity);
+        Destroy(effcts, 0.5F);
         
     }
 }

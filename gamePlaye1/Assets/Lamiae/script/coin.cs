@@ -14,4 +14,9 @@ public class coin : MonoBehaviour
 
         }
     }
+    public void effectMethod(GameObject effects)
+    {
+        GameObject effect = Instantiate(effects, this.transform.position, Quaternion.identity);
+        Destroy(effect, 0.5f);
+    }
 }

@@ -14,7 +14,8 @@ public class move : MonoBehaviour
     bool statuSP;
     [SerializeField] GameObject ui;
     MMFeedbacks soundcoin;
-    [SerializeField] LevelGenerator  lvlgen;
+    [SerializeField] LevelGenerator  lvlgen; 
+    [SerializeField] GameObject  effect;
 
     float speedp=4;
     private void Awake()
@@ -84,6 +85,7 @@ public class move : MonoBehaviour
         {
             soundcoin.PlayFeedbacks();
             Destroy(other.gameObject);
+            other.gameObject.GetComponent<coin>().effectMethod(effect);
         }
 
         if (other.gameObject.tag == "ui")

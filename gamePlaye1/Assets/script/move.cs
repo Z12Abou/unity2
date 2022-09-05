@@ -15,6 +15,7 @@ public class move : MonoBehaviour
     [SerializeField] GameObject ui;
     MMFeedbacks soundcoin;
     [SerializeField] LevelGenerator  lvlgen;
+    [SerializeField] ParticleSystem particals;
     
 
     private void Awake()
@@ -73,8 +74,10 @@ public class move : MonoBehaviour
     {
         if (other.gameObject.tag == "coin")
         {
+            other.gameObject.GetComponent<cion>().affecteCoin(particals.gameObject);
             soundcoin.PlayFeedbacks();
-            Destroy(other.gameObject);
+           
+            Destroy(other.gameObject,0.2f) ;
         }
 
         if (other.gameObject.tag == "ui")

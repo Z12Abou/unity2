@@ -15,11 +15,10 @@ public class move : MonoBehaviour
     [SerializeField] GameObject ui;
     MMFeedbacks soundcoin;
     [SerializeField] LevelGenerator  lvlgen;
-<<<<<<< HEAD
+
     [SerializeField] GameObject particals;
     
-=======
->>>>>>> @{-1}
+
 
     float speedp=4;
     private void Awake()
@@ -35,13 +34,10 @@ public class move : MonoBehaviour
       soundcoin = GameObject.FindGameObjectWithTag("soundcoin").GetComponent<MMFeedbacks>();
         lr = GetComponent<LaneRunner>();
         ani = GetComponent<Animator>();
-<<<<<<< HEAD
         InvokeRepeating("AddspeedPlayer", 4, 2);
        
-=======
         //InvokeRepeating("AddspeedPlayer", 4, 2);
         klaSpeed = false;
->>>>>>> @{-1}
 
     }
 
@@ -53,8 +49,7 @@ public class move : MonoBehaviour
 
     void FixedUpdate()
     {
-<<<<<<< HEAD
-=======
+
         if(lr.followSpeed <= 20)
         {
             speedp += 0.01f;
@@ -63,7 +58,7 @@ public class move : MonoBehaviour
                 lr.followSpeed += speedp;
             }
         }
->>>>>>> @{-1}
+
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if(lr.lane>2)

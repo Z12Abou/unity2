@@ -15,6 +15,7 @@ public class move : MonoBehaviour
     [SerializeField] GameObject ui;
     MMFeedbacks soundcoin;
     [SerializeField] LevelGenerator  lvlgen;
+    [SerializeField] GameObject particals;
     
 
     private void Awake()
@@ -29,7 +30,7 @@ public class move : MonoBehaviour
       soundcoin = GameObject.FindGameObjectWithTag("soundcoin").GetComponent<MMFeedbacks>();
         lr = GetComponent<LaneRunner>();
         ani = GetComponent<Animator>();
-        //InvokeRepeating("AddspeedPlayer", 4, 2);
+        InvokeRepeating("AddspeedPlayer", 4, 2);
        
 
     }
@@ -42,10 +43,6 @@ public class move : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(lr.followSpeed <= 20)
-        {
-            lr.followSpeed += 0.01f;
-        }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if(lr.lane>2)
@@ -77,8 +74,10 @@ public class move : MonoBehaviour
     {
         if (other.gameObject.tag == "coin")
         {
+            other.gameObject.GetComponent<cion>().affecteCoin(particals);
             soundcoin.PlayFeedbacks();
-            Destroy(other.gameObject);
+           
+            Destroy(other.gameObject,0.2f) ;
         }
 
         if (other.gameObject.tag == "ui")
@@ -97,7 +96,6 @@ public class move : MonoBehaviour
      
     }
    
-
     //public void AddspeedPlayer()
     //{
     //    if (lr.followSpeed <= 20)
@@ -105,11 +103,23 @@ public class move : MonoBehaviour
     //        lr.followSpeed++;
     //        Debug.Log("Add spped player ");
     //    }
-        
-    //}
-    public void SupparPaoire()
+       // 
+
+
+    public void AddspeedPlayer()
     {
+        if (lr.followSpeed <= 20)
+        {
+            lr.followSpeed++;
+            Debug.Log("Add spped player ");
+        }
         
+    }
+
+    public void SupparPaoire(GameObject playerEffect)
+    {
+        Instantiate(playerEffect, this.transform);
+        Debug.Log("ok daze");
         
     }
    

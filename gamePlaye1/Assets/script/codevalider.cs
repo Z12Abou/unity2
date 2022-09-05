@@ -5,7 +5,7 @@ using Dreamteck.Forever;
 
 public class codevalider : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
     public static string codetext;
     [SerializeField] InputField inputField;
     int k = 3;
@@ -21,12 +21,9 @@ public class codevalider : MonoBehaviour
             if (codetext == inputField.text.Trim())
             {
                 Debug.Log("win");
-                lvl = PlayerPrefs.GetInt("startlvl");
                 lvl++;
                 PlayerPrefs.SetInt("startlvl", lvl);
-                SceneManager.LoadScene(0);
-                
-
+                SceneManager.LoadScene(0);  
             }
             else
             {

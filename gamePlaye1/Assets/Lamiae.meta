@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:gamePlaye1/Assets/Assets/sprits.meta
+guid: a08aef7f85ca7a94b94666c06aeea3b1
+========
 guid: 08f44d4be4a2b8547840580aa6da37fc
+>>>>>>>> 3e993cf7872cab548d09c020fbae6eac2ef25c99:gamePlaye1/Assets/Lamiae.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

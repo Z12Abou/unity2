@@ -434,7 +434,7 @@ MonoBehaviour:
     min: {x: -2.5, y: -0.20947713, z: -6.1}
     size: {x: 5, y: 0.41895425, z: 13}
   builders: []
-  unpacked: 0
+  unpacked: 1
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -442,7 +442,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 36
+  editorChildCount: 35
 --- !u!1 &7936274770543826852
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,7 +858,8 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1063514271343129030, guid: fa2c57d3f28a5e6419393e8bc3eeb32a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fa2c57d3f28a5e6419393e8bc3eeb32a, type: 3}
 --- !u!4 &2061173923285827054 stripped
 Transform:

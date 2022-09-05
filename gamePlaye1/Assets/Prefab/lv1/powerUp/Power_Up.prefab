@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7097884721824741221}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.919653, y: -1.7788929, z: 7.8150797}
   m_LocalScale: {x: 0.37718692, y: 0.23092565, z: 0.25673035}
   m_ConstrainProportionsScale: 0
@@ -112,4 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EffecteUP: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9, type: 3}
+<<<<<<< HEAD
   EffectePlayer: {fileID: 6285268881846677828, guid: 2c8b4167fb27c9349bf593c7d86fefb4, type: 3}
+=======
+  lr: {fileID: 0}
+  salaSpeed: 0
+>>>>>>> @{-1}

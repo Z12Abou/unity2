@@ -504,22 +504,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6645533587763680386, guid: 2e7e0266d26c3c44c8bc827b895d9da7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 9.7712
-      objectReference: {fileID: 0}
-    - target: {fileID: 6645533587763680386, guid: 2e7e0266d26c3c44c8bc827b895d9da7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -4.8856
-      objectReference: {fileID: 0}
-    - target: {fileID: 6645533587763680387, guid: 2e7e0266d26c3c44c8bc827b895d9da7, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 1726bcd85561e7c4e810f7323fd9bdd4, type: 3}
-    - target: {fileID: 6645533587763680387, guid: 2e7e0266d26c3c44c8bc827b895d9da7, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 6645533588959285019, guid: 2e7e0266d26c3c44c8bc827b895d9da7, type: 3}
       propertyPath: m_Name
       value: Canvas
